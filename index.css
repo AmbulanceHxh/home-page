@@ -432,7 +432,7 @@ input:focus {
 
 #content {
     width: 100%;
-    height: 70rem;
+    height: 68rem;
     background: #f4f4f4;
 
 }
@@ -636,8 +636,8 @@ input:focus {
 
 .display-title .word1 .word {
     width: 100%;
-    height: 0.23rem;
-    line-height: 0.3rem;
+    height: 0.3rem;
+    line-height: 0.34rem;
     /*background: #575757;*/
     font-size: 0.23rem;
 }
@@ -1181,6 +1181,16 @@ input:focus {
     width: 100%;
     height: auto;
     background: #fff;
+    padding-top: 0.5rem;
+}
+
+#content #design .wrapper .display-title {
+    width: 100%;
+}
+
+#content #design .wrapper .display-title .word2.designer {
+    color: #f7c72d;
+    width: 1.2rem;
 }
 
 #content #design .designer-list {
@@ -1271,7 +1281,7 @@ input:focus {
     color: #599bf4;
 }
 
-#content #design #blue-star {
+#content #design .blue-star {
     font-size: 0.19rem;
     line-height: 0.28rem;
     color: #1fb4f5;
@@ -1303,34 +1313,239 @@ input:focus {
     -moz-osx-font-smoothing: grayscale;
     font-size: 0.15rem;
     line-height: 0.3rem;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
 #content #design .designer-list-desc-data .data-icon {
-    color:#696969;
+    color: #696969;
 }
 
 #content #design .designer-list-desc-data .data-icon .favorite-icon {
-    color:#f05926;
+    color: #f05926;
 }
+
 #content #design .designer-list-desc-data .data-icon .search-icon {
-    color:#1d9ee1;
+    color: #1d9ee1;
 }
+
 #content #design .designer-list-desc-data .data-icon .talk-icon {
-    color:#7ecb4f;
+    color: #7ecb4f;
 }
 
 #content #design .designer-division {
     width: 6.5rem;
     height: 0.05rem;
     border-top: 1px dashed #a6a6a6;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 #content #design .designer-join {
     width: 3.13rem;
     height: 0.98rem;
-    background:url(images/join-club_03.jpg) no-repeat center / 100% auto;
+    background: url(images/join-club_03.jpg) no-repeat center / 100% auto;
     margin: 0 auto;
+}
+
+/*-----小贴士-------*/
+
+#content #hot-issue {
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+#content #hot-issue .wrapper .display-title {
+    width: 100%;
+    height: 0.68rem;
+    padding-top: 0.2rem;
+}
+
+#content #hot-issue .wrapper .display-title .linear {
+    background: #7fc35a;
+}
+
+#content #hot-issue .wrapper .display-title .point {
+    background: #7fc35a;
+}
+
+#content #hot-issue .wrapper .display-title .word2 {
+    width: 1.1rem;
+    color: #f7c72d;
+    font-size: 0.34rem;
+}
+
+#content #hot-issue .issue {
+    width: 100%;
+    height: 15.00rem;
+    padding-top: 0.3rem;
+}
+
+#content #hot-issue .issue-bg {
+    width: 100%;
+    height: 6.96rem;
+    background: url(images/hot-issue_03.jpg) no-repeat center / 100% auto;
+}
+
+#content #hot-issue .issue-list {
+    width: 100%;
+    height: 7.01rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#content #hot-issue .issue-list-item {
+    width: 3.51rem;
+    height: 3.5rem;
+    background: #33aee2;
+}
+
+#content #hot-issue .issue-list-item img {
+    width: 3.51rem;
+    height: 3.5rem;
+
+}
+
+#content #hot-issue .wrapper .display-title .word2.operative {
+    width: 1.4rem;
+    color: #f7c72d;
+    font-size: 0.34rem;
+}
+
+#content #hot-issue .wrapper .display-title .word3.operative {
+    width: 2.5rem;
+    line-height: 0.6rem;
+}
+
+#content #hot-issue .issue-brand {
+    width: 100%;
+    height: 6.36rem;
+
+}
+
+#content #hot-issue .issue-brand img {
+    width: 100%;
+    height: auto;
+
+}
+
+#bottom {
+    width: 100%;
+    height: 5.75rem;
+    background: #2d2d2d;
+    padding-top: .45rem;
+}
+
+#bottom #explain {
+    width: 4.16rem;
+    height: 2.46rem;
+    /*background: #8f8f8f;*/
+    margin: 0 auto;
+}
+
+#explain-top {
+    width: 100%;
+    height: 1.45rem;
+}
+
+#app-brand {
+    width: 1.3rem;
+    height: 100%;
+    /*background:#33aee2;*/
+    float: left;
+}
+
+#app-brand img {
+    width: 1.3rem;
+    height: 100%;
+}
+
+#explain-division {
+    width: 0;
+    height: 1.4rem;
+    float: left;
+    border-right: 1px dashed #4c4b4b;
+    margin-left: 0.4rem;
+}
+
+#explain-code {
+    width: 1.42rem;
+    height: 1.42rem;
+    background: #25b0ff;
+    float: left;
+    margin-left: 0.7rem;
+}
+
+#explain #explain-bottom {
+    width: 100%;
+    height: 1rem;
+    padding-top: 0.32rem;
+}
+
+#explain #explain-bottom .text {
+    width: 3.6rem;
+    height: .25rem;
+    line-height: 0.3rem;
+    font-size: 0.25rem;
+    color: #a7a5a5;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+#bottom-division {
+    width: 2.48rem;
+    height: 0;
+    border-top: 1px dashed #535353;
+    margin: 0.24rem auto;
+}
+
+#bottom #bottom-record1 {
+    width: 5.46rem;
+    height: 0.22rem;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+    color: #a7a5a5;
+    margin: 0 auto;
+}
+
+#bottom #bottom-record2 {
+    width: 3rem;
+    height: 0.22rem;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+    color: #a7a5a5;
+    margin: 0.1rem auto;
+}
+
+#bottom #bottom-app {
+    width: 2.14rem;
+    height: .55rem;
+    margin: 0.4rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottom #bottom-app-chat {
+    width: .55rem;
+    height: .55rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: #5ccc26 url(images/app-chat_03.png) no-repeat center / 0.55rem auto;
+}
+
+#bottom #bottom-app-qq {
+    width: .55rem;
+    height: .55rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: #2a77f6 url(images/app-qq_03.png) no-repeat center / 0.55rem auto;
+}
+
+#bottom #bottom-app-blog {
+    width: .55rem;
+    height: .55rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: #f59421 url(images/app-blog_03.png) no-repeat center / 0.55rem auto;
 }
